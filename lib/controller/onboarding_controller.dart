@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:http/http.dart' as http;
 import 'package:task_sm/models/product_model.dart';
-import 'package:task_sm/signInViews/singin_view.dart';
+import 'package:task_sm/views/signInViews/singin_view.dart';
 import 'package:task_sm/widgets/onboarding_page.dart';
 
 class OnboardingController extends GetxController {

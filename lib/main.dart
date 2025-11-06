@@ -6,9 +6,7 @@ import 'package:task_sm/routes/routes_names.dart';
 import 'package:task_sm/routes/routes_pages.dart';
 
 void main() {
-  runApp(
-    DevicePreview(enabled: !kReleaseMode, builder: (context) => const MyApp()),
-  );
+  runApp(DevicePreview(enabled: !kReleaseMode, builder: (context) => MyApp()));
 }
 
 class MyApp extends StatelessWidget {
