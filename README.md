@@ -1,7 +1,26 @@
-# 🛍️ E-zone
+# 🛍️ E-course-area
 
-E-zone is a modern Flutter application built to demonstrate responsive UI design and mobile app development fundamentals.  
-Developed by **Rakibul Islam**, this project showcases the use of Flutter widgets, GetX state management, and structured app architecture.
+Production-ready Flutter app featuring a modern, responsive UI and a complete authentication system powered by RESTful APIs and GetX state management. Implements secure token-based authentication (login & registration) using the http package with robust error handling and reactive state control.
+
+---
+
+## 🖼️ App Preview
+
+| Splash | Onbording | Onbording |
+|----------|------|------|
+| <img src="screenshot/splash.jpg" width="230"/> | <img src="screenshot/onbording_one.jpg" width="230"/> | <img src="screenshot/onbording_two.jpg" width="230"/> |
+
+| Sign In | Sign Up | Sign Up Success |
+|----------|-----------|------|
+| <img src="screenshot/sign_in.jpg" width="230"/> | <img src="screenshot/sign_up.jpg" width="230"/> | <img src="screenshot/reg_success.jpg" width="230"/> |
+
+| Forgot Password | Reset Password | Reset Success |
+|----------|------|------|
+| <img src="screenshot/forgot_password.jpg" width="230"/> | <img src="screenshot/reset_password.jpg" width="230"/> | <img src="screenshot/re_success.jpg" width="230"/> |
+
+| Location | Select Country
+|----------|------|
+| <img src="screenshot/location.jpg" width="230"/> | <img src="screenshot/country.jpg" width="230"/> |
 
 ---
 
@@ -11,7 +30,7 @@ Developed by **Rakibul Islam**, this project showcases the use of Flutter widget
 - ⚡ Fast performance  
 - 🧭 Smooth navigation using GetX  
 - 🛠️ Well-structured project architecture  
-- 🌐 API-ready setup  
+- 🌐 API-ready setup and authenticator using RestApi
 - 💾 Local storage support using GetStorage  
 
 ---
@@ -24,6 +43,7 @@ Developed by **Rakibul Islam**, this project showcases the use of Flutter widget
 | Language | Dart |
 | State Management | GetX |
 | Storage | GetStorage |
+| authenticator | http RestApi
 | UI Toolkit | Material Design |
 
 ---
